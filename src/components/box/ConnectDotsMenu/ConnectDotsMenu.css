@@ -1,0 +1,115 @@
+.inp1{
+    width: 120px;
+    height: 30px;
+    margin-left: 35px;
+}
+.pl1,.pl2,.difficulty_size{
+    display: flex;
+    margin-top: 13px;
+}
+.sbmt{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.frm{
+    width: 25vw;
+    height: 25vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 4px;
+    backdrop-filter: blur(23px);
+    font-weight: bold;
+}
+#pge,#pge2{
+    position: absolute;
+    z-index: 0;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('../../images/img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pge2{
+    z-index: 1;
+}
+.strtBtn{
+    padding: 4px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60px;
+}
+.strtBtn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.incWidthOfinp{
+    width: 180px;
+}
+#modeSelect{
+    position: absolute;
+    z-index: 1000;
+    height: 90vh;
+    width: 100vw;
+    background-image: url('../../images/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single,.multi{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 7vh;
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: green;
+    position: absolute;
+    left: 30vw;
+}
+.single:hover,.multi:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.single{
+    top: 50vh;
+}
+.multi{
+    top: 60vh;
+}
+.rules{
+    position: absolute;
+    background-image: url('../../images/paperRBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 30vw;
+    left: 55vw;
+    top: 2vh;
+}
+.rulesTxt{
+    position: absolute;
+    height: 60vh;
+    width: 18vw;
+    left: 8vw;
+    top: 10vh;
+    padding: 20px;
+}
+.rulesTxt ul{
+    margin-top: 18px;
+}
+.rulesTxt ul li{
+    font-size: 17px;
+    margin-top: 10px;
+}
